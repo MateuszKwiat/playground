@@ -20,6 +20,6 @@ print('y = {0}x + {1}'.format(m, b))
 fig, ax = plt.subplots()
 
 ax.scatter(X, Y, s=7, color='green')
-ax.plot(X, m*X + b, color='purple')
+ax.plot(X, m*X + b, color='magenta')
 
 plt.show()
